@@ -20,4 +20,10 @@ public class Main extends AppCompatActivity {
         startActivity(intent);
     }
 
+
+    public void mall (View v)
+    {
+        Intent intent = new Intent(getBaseContext(),Malls.class);
+        startActivity(intent);
+    }
 }

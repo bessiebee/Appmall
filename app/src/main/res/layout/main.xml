@@ -6,15 +6,18 @@
     android:orientation="vertical"
     tools:context="com.example.bessie.appmall.Main">
 
+
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Malls"
         android:textSize="45sp"
         android:padding="35dp"
-        android:background="@android:color/holo_orange_light"
+        android:background="#E3F2FD"
         android:textStyle="bold"
         android:gravity="center"
+        android:onClick="mall"
         />
 
     <TextView
@@ -23,7 +26,7 @@
         android:text="Sale/ Specials"
         android:padding="35dp"
         android:onClick="sales"
-        android:background="@android:color/holo_red_light"
+        android:background="#EF9A9A"
         android:textSize="45sp"
         android:textStyle="bold"
         android:gravity="center"
@@ -33,7 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="35dp"
-        android:background="@android:color/holo_blue_bright"
+        android:background="#E3F2FD"
         android:text="Competitions"
         android:textSize="45sp"
         android:textStyle="bold"
@@ -44,7 +47,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="35dp"
-        android:background="@android:color/holo_purple"
+        android:background="#EF9A9A"
         android:text="Promotions"
         android:textSize="45sp"
         android:textStyle="bold"
