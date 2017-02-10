@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.bessie.appmall.Main">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Malls"
+        android:textSize="45sp"
+        android:padding="35dp"
+        android:background="@android:color/holo_orange_light"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sale/ Specials"
+        android:padding="35dp"
+        android:onClick="sales"
+        android:background="@android:color/holo_red_light"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="35dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Competitions"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="35dp"
+        android:background="@android:color/holo_purple"
+        android:text="Promotions"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+</LinearLayout>
