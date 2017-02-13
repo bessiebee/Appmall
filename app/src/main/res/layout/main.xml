@@ -38,6 +38,7 @@
         android:padding="35dp"
         android:background="#E3F2FD"
         android:text="Competitions"
+        android:onClick="competitions"
         android:textSize="45sp"
         android:textStyle="bold"
         android:gravity="center"

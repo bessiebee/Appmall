@@ -26,4 +26,15 @@ public class Main extends AppCompatActivity {
         Intent intent = new Intent(getBaseContext(),Malls.class);
         startActivity(intent);
     }
+
+    public void competitions (View v)
+    {
+        Intent intent = new Intent(getBaseContext(),Competition.class);
+        startActivity(intent);
+    }
+    public void promotion (View v)
+    {
+        Intent intent = new Intent(getBaseContext(),Promotions.class);
+        startActivity(intent);
+    }
 }

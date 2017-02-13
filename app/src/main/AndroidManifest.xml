@@ -22,7 +22,9 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".Malls"></activity>
+        <activity android:name=".Malls" />
+        <activity android:name=".Competition" />
+        <activity android:name=".Promotions"></activity>
     </application>
 
 </manifest>
