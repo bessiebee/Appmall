@@ -25,6 +25,8 @@
         <activity android:name=".Malls" />
         <activity android:name=".Competition" />
         <activity android:name=".Promotions"></activity>
+
+       
     </application>
 
 </manifest>
