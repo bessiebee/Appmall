@@ -33,31 +33,28 @@ public class Main2Activity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
-        if(item.getItemId() == R.id.message_icon){
-            Intent intent = new Intent(Main2Activity.this,ChatMessages.class);
-            startActivity(intent);
-
-        if(item.getItemId() == R.id.menu_sign_out){
-          AuthUI.getInstance().signOut(this).addOnCompleteListener(new OnCompleteListener<Void>() {
-              @Override
-              public void onComplete(@NonNull Task<Void> task) {
-                  Snackbar.make(activity_main2,"You have been sighned out",Snackbar.LENGTH_SHORT).show();
-                  finish();
-              }
-          });
+        switch (item.getItemId())
+        {
+            case R.id.menu_sign_out:
+                AuthUI.getInstance().signOut(this).addOnCompleteListener(new OnCompleteListener<Void>() {
+                    @Override
+                    public void onComplete(@NonNull Task<Void> task) {
+                        Snackbar.make(activity_main2,"You have been sighned out",Snackbar.LENGTH_SHORT).show();
+                        finish();
+                    }
+                });
+                finish();
+                break;
+            default:
+                break;
         }
-        return true;
-
-           }
-        return true;
-
-
+        return super.onOptionsItemSelected(item);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 //        getMenuInflater().inflate(R.menu.main_menu,menu);
-        getMenuInflater().inflate(R.menu.main_main_menu,menu);
+        getMenuInflater().inflate(R.menu.main_menu,menu);
         return true;
     }
 
@@ -132,9 +129,5 @@ public class Main2Activity extends AppCompatActivity {
         };
         listofMessage.setAdapter(adapter);
     }
-
-
-
-
 
 }

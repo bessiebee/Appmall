@@ -97,9 +97,9 @@ public class MainActivity extends AppCompatActivity {
     public List<Product> getProductList() {
         //psuedo code to get product, replace your code to get real product here
         productList = new ArrayList<>();
-        productList.add(new Product(R.drawable.rat,"Title 1","This description 1"));
-        productList.add(new Product(R.drawable.rat,"Title 2","This description 2"));
-        productList.add(new Product(R.drawable.rat,"Title 3","This description 3"));
+        productList.add(new Product(R.drawable.coke,"R8.99 (500ml) ","Can Assorted(All Checkers stores)"));
+        productList.add(new Product(R.drawable.maize,"R27.99 (2.5 kg)","Ace Maize meal, Southdale Shoprite"));
+        productList.add(new Product(R.drawable.purity,"R22.99 (200 g)","Purity Baby first box get free bottle, Southgate Checkers"));
         productList.add(new Product(R.drawable.rat,"Title 4","This description 4"));
         productList.add(new Product(R.drawable.rat,"Title 5","This description 5"));
         productList.add(new Product(R.drawable.rat,"Title 6","This description 6"));

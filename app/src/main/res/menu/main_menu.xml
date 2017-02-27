@@ -5,8 +5,8 @@
 
     >
 
-    <item android:title="sign out" app:showAsAction="never"
+    <item android:title="sign out"
+        app:showAsAction="always"
         android:id="@+id/menu_sign_out"/>
-
 
 </menu>
